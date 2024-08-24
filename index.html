@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css" />
+  <link rel="stylesheet" href="style.css">
   <title>wordCounter</title>
 </head>
 
 <body>
   <!-- BARRA DE NAVEGACION -->
-  <nav class="border fixed split-nav">
+  <nav class="border fixed split-nav width-nav">
     <div class="nav-brand">
       <h3>wordCounter</h3>
     </div>
@@ -26,10 +27,52 @@
         <ul class="inline">
           <li><a href="/pages/about.html">Acerca de</a></li>
           <li><a href="/pages/help.html">Ayuda</a></li>
-          <li><a href="#">Github</a></li>
+          <li><a href="https://github.com/Blado87/contador_de_palabras_ingles">Github</a></li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <div class="main-container">
+    <div>
+      <br>
+      <h4 class="titulo">Contador de Palabras en Inglés</h4>
+      <hr>
+      <br>
+    </div>
+
+    <div class="secondary-container border">
+      <!-- Sección de barras de progreso -->
+      <div class="progress-container">
+        <h5 class="sub-titulo">Progreso de Memorización</h5>
+        <br>
+        <!-- ----------- barra 1 ------------ -->
+        <p>Palabras Memorizadas: 100 de 3000</p>
+        <div class="progress margin-bottom">
+          <div class="bar success w-55"></div>
+        </div>
+        <!-- ----------- barra 2 ------------ -->
+        <p>Palabras por Memorizar: 2900 de 3000</p>
+        <div class="progress margin-bottom">
+          <div class="bar warning w-30"></div>
+        </div>
+        <!-- Botón para mostrar el diccionario total -->
+         <div class="container-boton">
+          <button class="btn-block btn-primary-outline">Mostrar Diccionario Completo</button>
+         </div>
+        
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
 </body>
+
 </html>

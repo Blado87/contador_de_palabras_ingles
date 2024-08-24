@@ -1,0 +1,29 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    /* background-color: aquamarine; */
+
+}
+.secondary-container{
+    width: 90%;
+    padding: 20px;
+    /* background-color: bisque; */
+}
+.main-container h4, h5, p{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-weight: bold;
+}
+.sub-titulo{
+    text-align: center;
+    font-weight: bold;
+}
+.container-boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
