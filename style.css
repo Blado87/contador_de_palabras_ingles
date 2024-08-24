@@ -37,3 +37,8 @@
 .words-list p {
     margin: 5px 0;
 }
+.container-boton-test{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;
+}
