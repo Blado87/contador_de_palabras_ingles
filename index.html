@@ -33,7 +33,7 @@
     </div>
   </nav>
 
-  <div class="main-container">
+  <div class="main-container" >
     <div>
       <br>
       <h4 style="font-weight: bolder; text-align: center;">Contador de Palabras en Inglés</h4>
@@ -41,7 +41,7 @@
       <br>
     </div>
 
-    <div class="secondary-container border">
+    <div class="secondary-container border" style="background-color: white;">
       <!-- Sección de barras de progreso -->
       <div class="progress-container">
         <h5 style="font-weight: bolder; text-align: center;">Progreso de Memorización</h5>
@@ -58,18 +58,20 @@
         </div>
         <!-- Botón para mostrar el diccionario total -->
         <div class="container-boton">
-          <button class="btn-block btn-primary-outline">Mostrar Diccionario Completo</button>
+          <button class="btn-block btn-primary-outline">
+            <a href="/pages/dictionary.html">Mostrar Diccionario Completo</a>
+          </button>
         </div>
       </div>
     </div> 
    <br>
    <hr> 
     <!-- ----------- *************** ------------ -->
-    <div class="secondary-container border">
+    <div class="secondary-container border" style="background-color: white;">
       <!-- Sección de listas de palabras memorizadas -->
       <div class="words-container">
         <h5 style="font-weight: bold; text-align: center;">Palabras Memorizadas</h5>
-        <div class="words-list border background-success">
+        <div class="words-list border background-success" style="background-color: #eff2eb;">
           <p>Casa - House</p>
           <p>Perro - Dog</p>
           <p>Gato - Cat</p>
@@ -84,7 +86,7 @@
       <!-- Sección de listas de palabras no memorizadas -->
       <div class="words-container">
         <h5 style="font-weight: bold; text-align: center;">Palabras sin Memorizar</h5>
-        <div class="words-list background-warning border">
+        <div class="words-list background-warning border" style="background-color: #f7f6ec;">
           <p>Mesa - Table</p>
           <p>Silla - Chair</p>
           <p>Ventana - Window</p>
@@ -101,18 +103,15 @@
 
         <!-- Botón botón de test -->
         <div class="container-boton-test">
-          <button class="btn-block paper-btn btn-primary">Iniciar Test</button>
+          <button class="btn-block paper-btn btn-primary">
+            <a href="/pages/test.html">INICIAR TEST</a>
+          </button>
         </div>
 
   </div>
 
 
-
-
-
-
-
-
+  <script src="/script.js"></script>
 </body>
 
 </html>
